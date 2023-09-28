@@ -1,0 +1,35 @@
+.footer{
+    margin-top: 10rem;
+    display:grid;
+    background-color: black;
+    width:80%;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 3rem;
+}
+
+.footer{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    height:30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.icons{
+justify-content: space-between;
+}
+
+.icons i{
+    margin-right: 10px;
+}
+
+.elements{
+justify-content: space-between;
+}
+
+.elements span{
+    margin-right: 15px;
+}

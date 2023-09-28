@@ -1,0 +1,133 @@
+.heading{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.first{
+    display: flex;
+   width:100%;
+}
+
+.line{
+    margin-top:30px;
+}
+
+.project{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+}
+
+.milestone{ 
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+.input{
+    width:60vh;
+    height:5vh;
+    border-radius: 5px;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+  }
+
+.featureInput{
+    width:131vh;
+    height:5vh;
+    border-radius: 5px;
+}
+
+.imageInput{
+    width:115vh;
+    height:5vh;
+    border-radius: 5px;
+}
+
+.deleteButton{
+    position: absolute;
+    margin-left: 54%;
+    border:none;
+    background-color: transparent;
+}
+
+.deleteButton:hover{
+    background-color: black;
+    color:white;
+    transition: 0.3s;
+}
+
+.imageButton{
+    border:none;
+    border-radius: 2px;
+    background-color: transparent;
+    margin-left:10px;
+}
+
+.imageButton:hover{
+    transition: 0.4s;
+    color:red;
+}
+
+.recordButton{
+    border:none;
+    border-radius: 2px;
+    margin-left:10px;
+    background-color: transparent;
+}
+
+.recordButton:hover{
+    transition: 0.4s;
+    color:red;
+}
+
+.feature{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem; 
+}
+
+
+.feedback{
+    margin-left: 11rem; 
+    margin-top: 30px;
+}
+
+.error{
+    color:red;
+}
+
+.componentError{
+    color:red;
+    margin-left: 10rem;
+}
+
+.last{
+    margin-left: 80%;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+.discardButton{
+    margin-right: 20px;
+    border:2px solid  rgb(90, 90, 141);
+    border-radius: 3px;
+}
+
+.submit{
+    color:white;
+    background-color: rgb(11, 11, 46);
+    border-radius: 3px;
+}
+
+.discardButton:hover{
+    color:white;
+    background-color:rgb(11, 11, 46) ;
+    transition: 0.4s;
+}
+

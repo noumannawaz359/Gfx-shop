@@ -1,0 +1,155 @@
+*::before,
+
+*::after{
+
+    -webkit-box-sizing: border-box;
+
+    -moz-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+
+    text-decoration: none;
+
+    outline: none;
+
+}
+
+
+:root{
+
+    --bg-white: #fff;
+
+    --bg-dark-color: #ffc400;
+
+    --text-white: #061738;
+
+    --secondary-color: #FF7000;
+
+    --light-color: #e2f6de;
+
+    --dark-color: #ffc400;
+
+    --text-white: #fff;
+
+    ---text-gray: #dee2e6;
+
+    --anchor-color: #007aff;
+
+   /* font family  */
+
+    --primary-font: 'Barlow Condensed';
+
+    --secondary-font: 'Roboto';
+
+}
+
+.contact .contact-form{
+
+    background-color: var(--bg-dark-color);
+
+    padding: 5rem;
+
+    box-shadow: 0 0.2rem 1.5rem rgba(0, 0, 0, 0.04);
+
+}
+
+.contact .contact-form .form-control:focus{
+
+    outline: none;
+
+    box-shadow: none;
+
+}
+
+.contact .contact-form .form-control::placeholder{
+
+    color: #FF7000;
+
+}
+
+.contact .contact-form .form-control{
+
+    padding: 1rem 1.5rem;
+
+    /* border-radius: 0.5rem; */
+
+    border: 0.1 solid var(--secondary-color);
+
+    color: var(--text-white);
+
+    font-size: 1.5rem;
+
+    font-weight: 400;
+
+    font-family: var(--secondary-font);
+
+}
+
+.contact .contact-form textarea{
+
+    min-height: 15rem;
+
+}
+
+.contact .contact-form .info-box li{
+
+    position: relative;
+
+    padding-left: 7rem;
+
+    padding-bottom: 3.5rem;
+
+    margin-bottom: 2.9rem;
+
+}
+
+.contact .contact-form .info-box li i{
+
+    position: absolute;
+
+    left: 0;
+
+    top: 1.5rem;
+
+    font-size: 4.5rem;
+
+    line-height: 4.5rem;
+
+    color: var(--text-white);
+
+}
+
+.contact .contact-form .info-box li p{
+
+    color: var(--text-white);
+
+    /* font-size: medium; */
+
+}
+
+ 
+
+.contact .contact-form .info-box li a{
+
+    color: var(--text-white);
+
+    font-size: 2.5rem;
+
+    font-weight: 400;
+
+    margin-bottom: 0;
+
+    font-family: var(--secondary-font);
+
+}
+
+.container{
+    background-image: url(../image/contact2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:98vh;
+}

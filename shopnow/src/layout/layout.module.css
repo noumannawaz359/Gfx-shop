@@ -1,0 +1,28 @@
+.layoutWrapper {
+
+    width: 100%;
+  
+  }
+  
+  /* Visible navbar */
+  
+  .visible {
+  
+    opacity: 1;
+    transition: opacity all 1.3s ease-in-out;
+  
+  }
+  
+   
+  
+  /* Hidden navbar */
+  
+  .hidden {
+  
+    opacity: 0;
+   
+    transition: opacity all 1.3s ease-in-out;
+  
+  }
+  
+   

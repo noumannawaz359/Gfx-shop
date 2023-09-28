@@ -1,0 +1,111 @@
+.container{
+    width:65%;
+    border:2px solid;
+    margin-top: 10px;
+    border-radius: 1rem;
+    margin-left: 10rem;
+}
+
+.division {
+    margin: 20px;
+  }
+  
+ .boldButton {
+    border:transparent;
+    margin-right: 5px;
+    background-color:transparent ;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .italicButton {
+    margin-right: 5px;
+    border:transparent;
+    border-radius: 5px;
+    background-color:transparent ;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .underlineButton {
+    margin-right: 100px;
+    border:transparent;
+    background-color:transparent ;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .image {
+    margin-right: 90px;
+    border:transparent;
+    border-radius: 5px;
+    background-color:transparent ;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .bullets {
+    margin-right: 120px;
+    border:transparent;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color:transparent ;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .linkButton {
+    margin-right: 100px;
+    border:transparent;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color:transparent;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .emojiButton {
+    border:transparent;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: transparent ;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .editor_container {
+    padding: 10px;
+    min-height: 200px;
+    font-size: 16px;
+  }
+  
+  .editor-inline-style {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+  }
+  
+  .editor-unordered-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+  }
+  
+  .editor-emoji {
+    font-size: 20px;
+  }
+  
+  .editor-image {
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  

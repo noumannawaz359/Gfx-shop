@@ -1,0 +1,74 @@
+.image {
+  max-width: fit-content;
+  max-height: 200px; 
+  width: fit-content;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add {
+    background-color: #1a1c1a;
+    color: white;
+}
+
+.save {
+    background-color: #2196f3;
+    color: white;
+}
+
+.inputContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #f30909;
+    border-radius: 5px;
+    background-color: #21e4dd;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button_create {
+    background-color: #ec2c2f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+   .button{
+    background-color: #141dd9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .button-create:hover {
+    background-color: #1c7430;
+  } 
+  .setImage{
+       margin-right: 20px;
+  }
+
+  

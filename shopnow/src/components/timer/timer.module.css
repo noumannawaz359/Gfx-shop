@@ -1,0 +1,55 @@
+.timer{
+    background-image: url(../timer/timer2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 550px;
+    height: 450px;
+    padding: 10px 20px;
+    margin-bottom: 2rem;
+    border: 2px solid ; 
+    border-radius: 5px;
+    color: white;
+    transition: transform 0.5s ease;
+    animation-duration: 0.5s;
+}
+
+.timer:hover{
+    background-color: white;
+}
+
+.hours{
+    margin-top: 8rem;
+    margin-left: 4rem;
+}
+
+.timer h3{
+    margin-left: 7rem;
+    margin-top: 30px;
+    color:rgb(187, 34, 59)
+}
+
+.timer span{
+    justify-content: space-between;
+    margin-right: 20px;
+    color: black;
+    border: 10px solid white;
+    border-radius: 3px; 
+    background-color:white;
+}
+
+.buyNow{
+    border: 2px solid , black ;
+    background-color: black;
+    color:white;
+    margin-left: 12rem;
+    margin-top: 1rem;
+    width:130px;
+    transition:  0.3s ease;
+    animation-duration: 0.3s;
+}
+
+.buyNow:hover{
+    background-color: transparent;
+    color:white;
+    transform: scale(1);
+}
